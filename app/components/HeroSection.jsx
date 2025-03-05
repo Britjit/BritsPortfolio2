@@ -6,10 +6,10 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
-        <section className='lg:py-16'>
+        <section className='lg:py-12'>
          <div className='grid grid-cols-1 sm:grid-cols-12 '>
-            <div className=' col-span-8 place-self-center text-center sm:text-left justify-self-center'>
-                <h1 className="text-amber-700 padding:100px mb-4 mt-200 text-4xl sm:text-5xl lg:text-4xl font-extrabold ">
+            <div className='col-span-8 place-self-center text-center sm:text-left justify-self-center'>
+                <h1 className="text-amber-700 padding:100px mb-4 mt-400 text-2xl sm:text-5xl lg:text-4xl font-extrabold ">
                     Hello, Im  <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
@@ -43,12 +43,12 @@ const HeroSection = () => {
             </div>
         </div>
             <div className= 'col-span-5 place-self-center mt-4 lg:mt-0'> 
-                <div className="square-full  bg-amber-700 absolute top-0 right-0 lg:top-10 lg:right-10 w-[300px] h-[500px] lg:w-[400px] lg:h-[400px] mb-5"> 
+                <div className="square-full  bg-amber-700 absolute top-0 right-0 lg:top-10 lg:right-10 w-[300px] h-[500px] lg:w-[400px] lg:h-[400px] px-20 mb-5"> 
                     <Image src="/images/image.png"
                     alt="image"
-                    className='absolute transform -translate-x-1/3 -translate-y-1/3  left-1/4 top-1/4'
+                    className='aabsolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/3'
                     width={220}
-                    height={250}
+                    height={240}
                     />
                 </div>
             </div>

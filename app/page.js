@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import NavLink from "./components/NavLink";
 import AboutSection from "./components/AboutSection";
+import LeadershipSection from "./components/LeadershipSection";
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
         <div className="containter mx-auto px-4 py-7">
           <HeroSection/>
           <AboutSection/>
+          <LeadershipSection/>
           </div>
         
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      {/* <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
@@ -61,7 +63,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }

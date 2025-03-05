@@ -11,13 +11,13 @@ const navLinks = [
     path: "#about",
   },
   {
-    title: "Projects",
-    path: "#projects",
+    title: "Leadership",
+    path: "#LeadershipSection",
   },
-  {
-    title: "Contact",
-    path: "#contact",
-  },
+//   {
+//     title: "Contact",
+//     path: "#contact",
+//   },
 ];
 
 const Navbar = () => {
