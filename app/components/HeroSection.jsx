@@ -9,7 +9,7 @@ const HeroSection = () => {
         <section className='lg:py-12'>
          <div className='grid grid-cols-1 sm:grid-cols-12 '>
             <div className='col-span-8 place-self-center text-center sm:text-left justify-self-center'>
-                <h1 className="text-amber-700 padding:100px mb-4 mt-600 text-2xl sm:text-5xl lg:text-4xl font-extrabold ">
+                <h1 className="text-amber-700  padding:100px mb-4 mt-600 text-2xl sm:text-5xl lg:text-4xl font-extrabold ">
                     Hello, Im  <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
@@ -31,7 +31,7 @@ const HeroSection = () => {
                 </h1>
 
                 <p className="text-white text-base sm:text-lg lg:text-xl mb-6">
-                Welcome to a slice of my life! This is where you can learn all about me.
+                Welcome to my portfoilio (Programmed entirely by me!) This is where you can learn all about my professional life , dreams and accomplishments.
                 </p>
                 < p className="text-white text-base sm:text-lg lg:text-xl mb-4">
             
@@ -43,8 +43,8 @@ const HeroSection = () => {
             </div>
         </div>
             <div className= 'col-span-5 place-self-center mt-4 lg:mt-0'> 
-                <div className="square-full  bg-amber-700 absolute top-0 right-0 absolute lg:top-10 lg:right-10 w-[300px] h-[500px] lg:w-[400px] lg:h-[400px] px-20 mb-5"> 
-                    <Image src="/images/image.png"
+                <div className="square-full  bg-amber-700 absolute top-0 right-0 lg:top-10 lg:right-10 w-[300px] h-[500px] lg:w-[400px] lg:h-[400px] px-20 mb-5"> 
+                    <Image src="/Images/image.png"
                     alt="image"
                     className='absolute transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2'
                     width={220}
