@@ -25,7 +25,11 @@ const LeadershipSection = () => {
               />
             </div>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            I initially joined Alpha Kappa Psi for professional development, eager to refine my business skills 
+            and grow my network. However, what truly made an impact on me was the incredible brotherhood—the 
+            unwavering support, shared ambition, and lifelong connections. Inspired by this, I took on the role 
+            of Assistant Vice President of Membership to help bring in the next class of future business leaders,
+             ensuring they experience the same growth, mentorship, and sense of community that made AKPsi so special to me.
             </p>
           </div>
 
@@ -41,7 +45,12 @@ const LeadershipSection = () => {
               />
             </div>
             <p className="text-white">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Delta Sigma Theta Sorority, Inc. embodies sisterhood, social action, and the empowerment 
+            of Black college-educated women, values that deeply resonate with me. The commitment to 
+            service and leadership inspired me to take on the role of Recording Secretary, allowing 
+            me to play an integral part in my chapter’s success while enhancing my organizational and
+             leadership skills. Through this role, I’ve had the opportunity to contribute meaningfully 
+             to our mission while growing both personally and professionally.
             </p>
           </div>
 
@@ -49,7 +58,7 @@ const LeadershipSection = () => {
           <div className="text-center">
             <div className="mb-4">
               <Image
-                src="/images/leader3.jpg" // Replace with your image path
+                src="/Images/image-3.png" 
                 alt="Leader 3"
                 width={300}
                 height={200}

@@ -9,7 +9,7 @@ const HeroSection = () => {
         <section className='lg:py-12'>
          <div className='grid grid-cols-1 sm:grid-cols-12 '>
             <div className='col-span-8 place-self-center text-center sm:text-left justify-self-center'>
-                <h1 className="text-amber-700 padding:100px mb-4 mt-400 text-2xl sm:text-5xl lg:text-4xl font-extrabold ">
+                <h1 className="text-amber-700 padding:100px mb-4 mt-600 text-2xl sm:text-5xl lg:text-4xl font-extrabold ">
                     Hello, Im  <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
