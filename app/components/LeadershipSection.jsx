@@ -66,7 +66,12 @@ const LeadershipSection = () => {
               />
             </div>
             <p className="text-white">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            NSBE was the first organization I joined, and I immediately fell in love with it because
+            it helped me blossom into the engineer I am today. My very first event was a social, where
+            I felt truly welcomed and supported by a community of like-minded individuals. That experience
+            left a lasting impact, inspiring me to take on the role of Membership Chair so I could create
+            the same inclusive and encouraging environment for others. Giving back to the organization that
+            shaped my journey has been an incredibly rewarding experience.
             </p>
           </div>
         </div>
